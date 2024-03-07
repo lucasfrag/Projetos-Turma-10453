@@ -1,0 +1,225 @@
+<!-- Essa é a página inicial -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Configurações da página -->
+    <title>Senac EAD | Página Inicial</title>
+    <meta charset="utf-8">
+
+    <!-- Favicon -->
+    <link href="./images/favicon.ico" rel="icon" type="image/x-icon">
+    
+    <!-- Chamado do CSS -->
+    <link href="./css/teste-style.css" rel="stylesheet" type="text/css" >
+</head>
+
+<body>
+    <!-- Conteúdo que será visualizado pelo usuário no navegador -->
+    <!-- Textos -->
+    <header>
+        <center>
+            <img class="banner" src="https://img.freepik.com/free-photo/ultra-detailed-nebula-abstract-wallpaper-4_1562-749.jpg">
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>Quem somos</li>
+                    <li>Onde estamos</li>
+                    <li>...</li>
+                </ul>            
+            </nav>
+        </center>
+    </header>
+
+    <div class="area-textos">
+        <h1 id="textos">⭐ Textos ★!</h1>
+        <h2>Seja Bem-Vindo!</h2>
+        <h3 id="cor-titulo">Subtitulo </h3>
+        <h4>Subtitulo </h4>
+        <h5>Subtitulo </h5>
+        <h6>Subtitulo </h6>
+        <p>Isso é um paragrafo.</p>
+        <p class="cor-texto">Isso é um <b>paragrafo</b>.</p>
+        <p>Isso é um <i>paragrafo</i>.</p>
+    </div>
+
+    <br><br><br>
+    
+    <div style="background-color: chocolate;">
+    <h2>Formas Geometricas</h2>
+
+    <h3>Quadrado</h3>
+        <div class="quadrado"></div>
+        <div class="circulo"></div>
+        <div class="triangulo"></div>
+        <div class="estrela"></div>
+    </div>
+
+    <br><br><br>
+
+    <hr>
+    <!-- Imagens -->
+
+    <div>
+        <h2 id="imagens">Imagens</h2>
+        <img src="./images/favicon.ico" width="150" height="">
+        
+    </div>
+
+    <br><br><br>
+
+    <hr>
+    <!-- Links -->
+    <div>
+    <h2>Links</h2>
+    <a href="https://google.com.br/" >
+        <img width="150" src="https://t.ctcdn.com.br/lvns56iaSMyHvyTur4JeYS_NYeY=/i606944.png"><br>
+        Ir para o Google
+    </a>
+    <br><br>
+    <a href="./redirecionamento.html">
+        Ir para redirecionamento
+    </a>
+
+    <a href="#textos">
+        Ir para Textos
+    </a>
+
+    <a href="#imagens">
+        Ir para Imagens
+    </a>
+
+    </div>
+    <br><br><br>
+    <hr>
+
+    <!-- Formulários -->
+    <h2>Formulário</h2>
+    <form>
+        <p>
+            Login: <input type="text" placeholder="Exemplo: teste123" value="Teste">
+        </p>
+        <p>
+            E-mail: <input type="email">
+        </p>
+        <p>
+            Senha: <input type="password">
+        </p>
+        <p>
+            Data de Nascimento: <input type="datetime-local">
+        </p>
+        <p>
+            <input type="checkbox"> Opção 1
+            <input type="checkbox"> Opção 2
+            <input type="checkbox"> Opção 3
+        </p>        
+        <p>
+            <input type="radio" name="linguagem"> HTML 
+            <input type="radio" name="linguagem"> CSS 
+        </p>
+        <p>
+            <select>
+                <option>Opção 1</option>
+                <option>Opção 2</option>
+            </select>
+        </p>
+        <p>
+            <textarea rows="12" cols="150" maxlength="50"></textarea>
+        </p>
+        <button type="reset">Limpar</button>
+        <button type="submit">Salvar</button>
+    </form>
+    <br><br><br>
+    <hr>
+
+    <!-- Tabelas -->
+    <h2>Tabelas</h2>
+    <table>
+        <!-- Cabeçalho -->
+        <tr>
+            <th>Opção 1</th>
+            <th>Opção 2</th>
+            <th>Opção 3</th>
+        </tr>
+
+        <!-- Registros -->
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
+            <td>Coluna 4</td>
+        </tr>
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
+            <td>Coluna 4</td>
+        </tr>
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
+            <td>Coluna 4</td>
+        </tr>
+        <tr>
+            <td>Coluna 1</td>
+            <td>Coluna 2</td>
+            <td>Coluna 3</td>
+            <td>Coluna 4</td>
+        </tr>        
+    </table>    
+
+    <br><br><br>
+    <hr>
+
+    <h2>iFrames</h2>
+    <iframe width="500" height="200" src="./redirecionamento.html"></iframe>
+    <br>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/vclMF2N1VP8?si=WHYvqgoBGd31b9hS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <h2>Videos</h2>
+    <video width="320" height="240" controls>
+        <source src="./videos/movie.mp4" type="video/mp4">
+    </video>
+
+    <!-- Listas -->
+    <h2>Listas</h2>
+
+    <h3>Lista desordenada</h3>
+    <ul>
+        <li>Item 1</li>
+        <li>Item 2</li>
+        <li>Item 3</li>
+        <li>...</li>
+    </ul>
+
+    <h3>Lista ordenada</h3>
+    <ol type="1">
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+        <li>Item</li>
+    </ol>
+
+    <h3>Lista por definição</h3>
+    <dl>
+        <dt>Inicio</dt>
+        <dd>Teste ...... 1</dd>
+        <dd>Teste ...... 2</dd>
+        <dd>Teste ...... 3</dd>
+
+        <dt>Médio</dt>
+        <dd>Teste ...... 4</dd>
+        <dd>Teste ...... 5</dd>
+        <dd>Teste ...... 6</dd>
+    </dl>
+
+
+
+</body>
+
+
+</html>
